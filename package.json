@@ -1,0 +1,12 @@
+{
+  "name": "jps",
+  "version": "1.0.0",
+  "description": "WordPress Theme of “Quod Me Nutrit Me Destruit”",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Federico Moretti <hello@federicomoretti.it> (https://federicomoretti.it/)",
+  "license": "GPL2+"
+}
