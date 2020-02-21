@@ -2,11 +2,22 @@
   "name": "jps",
   "version": "1.0.0",
   "description": "WordPress Theme of “Quod Me Nutrit Me Destruit”",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Federico Moretti <hello@federicomoretti.it> (https://federicomoretti.it/)",
-  "license": "GPL2+"
+  "license": "GPL-2.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedtti/jps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fedtti/jps/issues"
+  },
+  "homepage": "https://github.com/fedtti/jps#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }

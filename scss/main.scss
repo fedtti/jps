@@ -1,7 +1,77 @@
-@import "fonts";
+@import "fonts"; // import custom fonts
+
+/**
+ * Set default variables.
+ */
+$black: #000;
+$red: #b00020;
+$white: #fff;
 
 .blog {
-  &__wrap {
+  font: 300 1rem/1 "Roboto Slab", serif;
+
+  /* Header */
+  &__head {
+    align-items: flex-end;
     display: flex;
+    height: 100vh;
+    width: 100%;
+
+    &__wrap {
+      padding: 1rem;
+    }
+
+    &__title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 1;
+      margin: 0;
+    }
+
+    &__subtitle {
+      line-height: 1.5;
+      margin: 0;
+    }
   }
+
+  /* Navigation */
+  &__nav {
+    background: $black;
+
+    &__list {
+      margin: 0;
+    }
+  }
+
+  /* Footer */
+  &__foot {
+    padding: 1rem;
+
+    &__link {
+      text-decoration: none;
+    }
+
+    &__credits {
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      line-height: 1.5;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+}
+
+/**
+ * Set chainable BEM modifiers (cfr. https://webuild.envato.com/blog/chainable-bem-modifiers/).
+ */
+.-text-small {
+  font-size: 0.75rem;
+}
+
+.-text-uppercase {
+  text-transform: uppercase;
+}
+
+.-color-red {
+  color: $red;
 }
