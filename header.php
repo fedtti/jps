@@ -18,10 +18,10 @@
 			</div>
 		</header>
 		<nav class="blog__nav">
-			<ul aria-expanded="false" class="blog__nav__list">
-				<li class="blog__nav__item"></li>
+			<ul aria-expanded="false" class="blog__nav__list -text-uppercase" id="pages">
+				<?php /* TODO: @fedtti */ ?>
 			</ul>
-			<button aria-label="<?php _e('Menu'); ?>" class="blog__nav__toggler">
+			<button aria-label="<?php _e('Menu'); ?>" class="blog__nav__toggler" id="toggler">
 				<i aria-hidden="true" class="fas fa-bars"></i>
 			</button>
 		</nav>
