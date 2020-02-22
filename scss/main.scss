@@ -4,7 +4,13 @@
  * Set default variables.
  */
 $black: #000;
+
+$grey: #424242;
+$dark-grey: #212121;
+$light-grey: #616161;
+
 $red: #b00020;
+
 $white: #fff;
 
 * {
@@ -33,6 +39,7 @@ $white: #fff;
     }
 
     &__subtitle {
+      font-family: "Roboto", sans-serif;
       line-height: 1.5;
       margin: 0;
     }
@@ -51,22 +58,37 @@ $white: #fff;
     }
 
     &__toggler {
-      background: transparent;
-      border: 0;
+      background: $grey;
+      border: 0.0625rem solid $dark-grey;
+      border-radius: 0.25rem;
+      box-shadow: 0 -0.125rem 0 $dark-grey inset;
       color: $white;
       cursor: pointer;
       font-size: 1.5rem;
-      height: 3rem;
-      margin: 0 auto;
-      width: 3rem;
+      height: 2.25rem;
+      margin: 0.5rem auto;
+      padding: 0 0 0.125rem 0;
+      width: 2.25rem;
+
+      &:active, &:focus, &:hover {
+        background: $light-grey;
+      }
+
+      &:active {
+        box-shadow: 0 0.125rem 0 $dark-grey inset;
+        padding: 0.125rem 0 0 0;
+      }
     }
   }
 
   /* Footer */
   &__foot {
+    background: $grey;
+    color: $white;
     padding: 1rem;
 
     &__link {
+      color: $dark-grey;
       text-decoration: none;
     }
 
