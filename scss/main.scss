@@ -1,17 +1,14 @@
-@import "fonts"; // import custom fonts
+@import "fonts"; // import web fonts
 
 /**
- * Set default variables.
+ * Set global variables.
  */
-$black: #000;
-
-$grey: #424242;
-$dark-grey: #212121;
-$light-grey: #616161;
-
-$red: #b00020;
-
 $white: #fff;
+$red: #b00020;
+$black: #000;
+$dark-grey: #212121;
+$grey: #424242;
+$light-grey: #616161;
 
 * {
   outline: 0;
@@ -70,10 +67,6 @@ $white: #fff;
       padding: 0 0 0.125rem 0;
       width: 2.25rem;
 
-      &:active, &:focus, &:hover {
-        background: $light-grey;
-      }
-
       &:active {
         box-shadow: 0 0.125rem 0 $dark-grey inset;
         padding: 0.125rem 0 0 0;
@@ -88,7 +81,7 @@ $white: #fff;
     padding: 1rem;
 
     &__link {
-      color: $dark-grey;
+      // color: ;
       text-decoration: none;
     }
 

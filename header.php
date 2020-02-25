@@ -5,6 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
 		<!-- TODO: @fedtti -->
+		<link rel="manifest" href="<?php bloginfo('url'); ?>/manifest.webmanifest" />
 		<link rel="prefetch stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
 		<link rel="prefetch stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" />
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/main.css" /> <!-- TODO: @fedtti -->

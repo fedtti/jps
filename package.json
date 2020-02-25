@@ -19,5 +19,8 @@
   "homepage": "https://github.com/fedtti/jps#readme",
   "devDependencies": {
     "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-sass": "^4.0.2"
   }
 }
