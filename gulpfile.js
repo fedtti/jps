@@ -4,19 +4,19 @@ sass.compiler = require("sass"); // use Dart Sass
 
 
 const styles = () => {
-  return src("/scss/*.scss")
+  return src("scss/*.scss")
     .pipe(sass({
-      style: expanded,
+      outputStyle: "expanded",
       sourceMaps: no
-    }))
+    }).on("error", sass.logError))
     .pipe()
-    .pipe(dest("/css"));
+    .pipe(dest("css"));
 };
 
 const scripts = () => {
-  return src("/ts/*.ts")
+  return src("ts/*.ts")
     .pipe()
-    .pipe(dest("/js"));
+    .pipe(dest("js"));
 }:
 
 exports.styles = styles;
