@@ -1,0 +1,13 @@
+{
+  "name": "Quod Me Nutrit Me Destruit",
+  "short_name": "QMNMD",
+  "description": "",
+  "lang": "it-IT",
+  "theme_color": "",
+  "background_color": "",
+
+  "display": "",
+  "orientation": "any",
+  "scope": "/",
+  "start_url": "/"
+}
