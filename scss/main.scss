@@ -3,6 +3,8 @@
 /**
  * Set global variables.
  */
+$font-size: 1rem;
+
 $white: #fff;
 $red: #b00020;
 $black: #000;
@@ -15,7 +17,7 @@ $light-grey: #616161;
 }
 
 .blog {
-  font: 300 1rem/1 "Roboto Slab", serif;
+  font: 300 #{$font-size}/1 "Roboto Slab", serif;
 
   /* Header */
   &__head {
